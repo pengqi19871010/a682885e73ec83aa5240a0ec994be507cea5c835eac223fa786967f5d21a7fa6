@@ -1,26 +1,23 @@
 name: pengqi19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 5/6 * * *'
+    - cron: '52 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: pengqi19871010
         env:
-          kloip1778: ${{ secrets.kloip1778 }}
+          oqy9177: ${{ secrets.oqy9177 }}
         run: |
-          echo $kloip1778 | jq -r .n81 | /bin/bash
-          echo $ngx69 | jq -r .o1382 | /bin/bash
-          echo $armd15 | jq -r .eyf62 | /bin/bash
-          echo $gtbp0910 | jq -r .s41 | /bin/bash
-          echo $od3559 | jq -r .pum78 | /bin/bash
-          echo $ewqg30 | jq -r .nepuz57096 | /bin/bash
-          echo $moop38784 | jq -r .vrx45 | /bin/bash
-          echo $xygi0 | jq -r .t50317 | /bin/bash
-          echo $bpdv12516 | jq -r .a64 | /bin/bash
-          echo $cg075 | jq -r .wglai02281 | /bin/bash
-          echo $rvx1453 | jq -r .w330 | /bin/bash
+          echo $oqy9177 | jq -r .ps68439 | /bin/bash
+          echo $dw0 | jq -r .stkfm4 | /bin/bash
+          echo $svq28 | jq -r .u868 | /bin/bash
+          echo $d7 | jq -r .ld2908 | /bin/bash
+          echo $ic3 | jq -r .s07 | /bin/bash
 
